@@ -1,3 +1,4 @@
+/* Add your CSS styles here */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +8,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -29,40 +30,11 @@ nav ul li a {
 .container {
     width: 80%;
     margin: 20px auto;
+    text-align: center;
 }
 
-.page {
-    display: none;
-    margin-bottom: 40px;
+.container h1 {
+    font-size: 36px;
 }
 
-.active {
-    font-weight: bold;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
+/* Add more styles as needed */
